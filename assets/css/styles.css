@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.box__left{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-right: 3px solid #E8EBE4;
+}
+
+.box__left-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left__user{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.left__user img{
+    width: 20%;
+    border-radius: 50px;
+}
+
+.left__user-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    align-items: center;
+    border-bottom: 3px solid #E8EBE4;
+}
+
+.left__user-bottom img{
+    width: 20%;
+    border-radius: 50px;
+    border: 2px solid #BEC1BB;
+}
+
+.left__user-bottom .left__text{
+    width: 56%;
+    margin-left: 10px;
+}
+
+.left__user-bottom .left__text p{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    color: #444749;
+}
+
+.left__text{
+    width: 45%;
+}
+
+.left__text h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.left__text p{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #BEC1BB;
+}
+
+.left__icons{
+    display: flex;
+    width: 24%;
+    justify-content: space-between;
+}
+
+.left__icons i{
+    color: #828485;
+    font-size: 22px;
+}
+
+.left__boton{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #E8EBE4;
+    border-top: 3px solid #E8EBE4;
+}
+
+.left__boton-container{
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    background-color: #A491D2;
+    padding: 15px 10px;
+}
+
+.left__boton-container:hover{
+    background-color: #CDC3E6;
+    transition: all 300ms ease-in-out;
+}
+
+.left__boton-container:focus{
+    background-color: #828485;
+    transition: all 300ms ease-in-out;
+}
+
+.left__boton-container a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.box__right{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.box__right-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box__right-container img{
+    width: 31%;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.box__right-text{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box__right-text h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: #1B1F21;
+}
+
+.box__right-text h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+}
+
+.box__right-text h2 span{
+    font-weight: bold;
+}
